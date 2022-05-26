@@ -1,0 +1,55 @@
+@font-face {
+    font-family: testFont;
+    src: url("./assets/fonts/Herculanum-Regular.otf");
+    src: url("./assets/fonts/Herculanum-Regular.ttf"), format("truetype"),
+         url("./assets/fonts/Herculanum-Regular.svg"), format ("svg"),
+         url("./assets/fonts/Herculanum-Regular.woff"), format ("woff");
+}
+
+body {
+    font-family: testFont, Fallback, sans-serif;
+}
+
+.mogi {
+    font-family: testFont, Fallback, sans-serif;
+    font-weight: 900;
+    font-size: 0.5em;
+}
+
+.mogi-heading {
+    font-family: testFont, Fallback, sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+.white {
+    color: white;
+}
+
+#quote-field {
+    font-size: 0.3em;
+    line-height: 15px;
+    max-width: 400px;
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    font-size: 0.5em;
+    margin: 20px 0px;
+}
+
+#Mogi {
+    height: 100vh;
+    background-image: url("./assets/img/sunset-2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 35%;
+    font-size: 10vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
