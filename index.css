@@ -46,7 +46,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 35%;
+    padding-top: 20vh;
     font-size: 10vmin;
     display: flex;
     flex-direction: column;
